@@ -1,0 +1,9 @@
+.container {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: space-around;
+}
+
