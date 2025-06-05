@@ -18,12 +18,15 @@ export function MyTextList() {
     ];
 
     return (
-        <div className={styles.Container}>
+        <div>
+            <h1 className={styles.title}>Meus textos</h1>
+            <div className={styles.Container}>
             {texts.map((text, index) => (
                 <MyText key={index} title={`${index + 1}. ${text.title}`}>
                     {text.text}
                 </MyText>
             ))}
+            </div>
         </div>
     );
 }
